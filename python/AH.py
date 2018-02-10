@@ -189,8 +189,8 @@ def test(beta, omega, num_of_channel, test_data):
 
 num_of_epoches = 20
 
-train_path = 'data/train_usr.yzx.txt'
-test_path = 'data/test_usr.yzx.txt'
+train_path = '../data/train_usr.yzx.txt'
+test_path = '../data/test_usr.yzx.txt'
 traindata_size = loadCriteo.count(train_path)
 testdata_size = loadCriteo.count(test_path)
 

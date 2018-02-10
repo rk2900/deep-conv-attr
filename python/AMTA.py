@@ -343,8 +343,8 @@ class AMTA():
 
 
 f_log = open("log_AMTA.txt", 'w')
-train_path = 'data/train_usr.yzx.txt'
-test_path = 'data/test_usr.yzx.txt'
+train_path = '../data/train_usr.yzx.txt'
+test_path = '../data/test_usr.yzx.txt'
 traindata_size = loadCriteo.count(train_path)
 testdata_size = loadCriteo.count(test_path)
 num_feat = 5867
@@ -471,6 +471,6 @@ else:
     exit(1)
 f_train = open(train_path)
 f_test = open(test_path)
-AMTAModel = AMTA('./Model/AMTA', batchsize=1000, learning_rate=learning_rate)
+AMTAModel = AMTA('../Model/AMTA', batchsize=1000, learning_rate=learning_rate)
 AMTAModel.train_all_epoch()
 AMTAModel.test()

@@ -390,8 +390,8 @@ class RnnWithattention(object):
 
 
 if __name__ == '__main__':
-    traindata = 'data/train_usr.yzx.txt'
-    testdata = 'data/test_usr.yzx.txt'
+    traindata = '../data/train_usr.yzx.txt'
+    testdata = '../data/test_usr.yzx.txt'
     if len(sys.argv) != 4 and len(sys.argv) != 1:
         print('usage: python ARNN.py [learning rate] [batch size] [mu]')
         exit(1)
@@ -407,7 +407,7 @@ if __name__ == '__main__':
     C = config(max_features=5897, learning_rate=learning_rate, batch_size=batch_size, feature_number=12,
                seq_max_len=20, n_input=2,
                embedding_output=256, n_hidden=512, n_classes=2, n_epochs=50, isseq=True, miu=mu)
-    path = './Model/ARNN'
+    path = '../Model/ARNN'
     model = RnnWithattention(path, traindata, testdata, C)
     model.train_until_cov()
     model.test(0)

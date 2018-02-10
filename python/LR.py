@@ -100,7 +100,7 @@ class LR_f_criteo():
         total_loss = []
         pred = []
         label = []
-        trainfile = open('data/train_usr.yzx.txt', 'rb')
+        trainfile = open('../data/train_usr.yzx.txt', 'rb')
         while True:
             train_X, train_Y = loadLRF(500, 20, 12, trainfile)
             feed_dict = {
@@ -167,7 +167,7 @@ class LR_f_criteo():
         total_loss = []
         pred = []
         label = []
-        file = open('data/test_usr.yzx.txt', 'rb')
+        file = open('../data/test_usr.yzx.txt', 'rb')
         while True:
             train_X, train_Y = loadLRF(500, 20, 12, file)
             feed_dict = {
@@ -230,6 +230,6 @@ if __name__ == '__main__':
     else:
         print 'usage: python LR.py [learning rate]'
         exit(1)
-    model = LR_f_criteo("./Model/LR", learning_rate=learning_rate)
+    model = LR_f_criteo("../Model/LR", learning_rate=learning_rate)
     model.train_all_epochs()
     model.test(0)
