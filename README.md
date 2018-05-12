@@ -1,5 +1,5 @@
 # Deep Conversion Attribution for Online Advertising
-A `tensorflow` implementation of all the compared models for the KDD submission "Learning Conversion Attribution with Dual-attention Mechanism for Online Advertising".
+A `tensorflow` implementation of all the compared models for the working paper.
 If you have any questions, please feel free to contact [Kan Ren](http://apex.sjtu.edu.cn/members/kren) (kren@apex.sjtu.edu.cn) and [Yuchen Fang](http://apex.sjtu.edu.cn/members/arthur_fyc) (arthur_fyc@apex.sjtu.edu.cn).
 
 ### Data Preparation
