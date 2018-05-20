@@ -13,6 +13,7 @@ After download please replace the sample data in `data/` folder with the full da
 After package installation, you can simple run the code with the demo tiny dataset.
 ```
 python LR.py [learning rate]                    # for LR
+python SP.py                                    # for Simple Probablistic
 python AH.py                                    # for AdditiveHazard
 python AMTA.py [learning rate] [batchsize]      # for AMTA
 python ARNN.py [learning rate] [batchsize] [mu] # for ARNN
