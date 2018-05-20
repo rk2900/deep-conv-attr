@@ -211,7 +211,7 @@ class LR_f_criteo():
         file = open('data/test_usr.yzx.txt', 'rb')
         channelfile = open('index2channel.pkl', 'rb')
         channel_set = pkl.load(channelfile)
-        outfile = open('/newNAS/Workspaces/AdsGroup/fyc/attribute_criteo/lr_f.txt', 'w')
+        outfile = open('./attribute_criteo/lr_f.txt', 'w')
         train_X, train_Y = loadLRF(1, 20, 12, file)
         feed_dict = {
             self.X: train_X,

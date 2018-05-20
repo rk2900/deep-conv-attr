@@ -453,7 +453,7 @@ class DualAttention(object):
 		Channel_time = {}
 		batch_size = 128
 		infile = open(self.test_dataset, 'rb')
-		outfile = open('/newNAS/Workspaces/AdsGroup/fyc/attribute_criteo/trainlambda.txt', 'w')
+		outfile = open('./attribute_criteo/trainlambda.txt', 'w')
 		while True:
 			batch = loaddualattention(batch_size, self.config.seq_max_len, self.config.feature_number, infile)
 			test_data, test_compaign_data, click_label, test_label, test_seqlen = batch
@@ -531,7 +531,7 @@ class DualAttention(object):
 		Channel_time = {}
 		batch_size = 128
 		infile = open(self.test_dataset, 'rb')
-		outfile = open('/newNAS/Workspaces/AdsGroup/fyc/dis_lambda.pkl', 'wb')
+		outfile = open('./dis_lambda.pkl', 'wb')
 		l = []
 		while True:
 			batch = loaddualattention(batch_size, self.config.seq_max_len, self.config.feature_number, infile)

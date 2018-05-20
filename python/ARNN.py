@@ -302,7 +302,7 @@ class RnnWithattention(object):
         Channel_value = {}
         Channel_time = {}
         infile = open(self.test_dataset, 'rb')
-        outfile = open('/newNAS/Workspaces/AdsGroup/fyc/attribute_criteo_s1/rnn_withattention.txt', 'w')
+        outfile = open('./attribute_criteo_s1/rnn_withattention.txt', 'w')
         while True:
             batch = loadrnnattention(self.config.batch_size, self.config.seq_max_len, self.config.feature_number,
                                      infile)

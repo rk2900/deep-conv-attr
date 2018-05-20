@@ -126,7 +126,7 @@ def attr(beta, omega, num_of_channel, data):
             else:
                 channel_value[channel] = item['p'][i]
                 channel_time[channel] = 1
-    outfile = open('/newNAS/Workspaces/AdsGroup/fyc/attribute_criteo_s1/survival.txt', 'w')
+    outfile = open('./attribute_criteo/survival.txt', 'w')
     for channel in channel_value:
         outfile.write(ChannelSet[str(channel)] + '\t' + str(channel_value[channel] / channel_time[channel]) + '\n')
 

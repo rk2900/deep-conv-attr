@@ -278,7 +278,7 @@ class AMTA():
         num_examples = testdata_size
 
         f_test = open(test_path)
-        outfile = open('/newNAS/Workspaces/AdsGroup/fyc/attribute_criteo_s1/AMTA.txt', 'w')
+        outfile = open('./attribute_criteo_s1/AMTA.txt', 'w')
         filec = open('index2channel.pkl', 'rb')
         Channel = pkl.load(filec)
         Channel_value = {}
