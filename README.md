@@ -1,11 +1,9 @@
 # Deep Conversion Attribution for Online Advertising
 A `tensorflow` implementation of all the compared models for the working paper.
-If you have any questions, please feel free to contact [Kan Ren](http://apex.sjtu.edu.cn/members/kren) (kren@apex.sjtu.edu.cn) and [Yuchen Fang](http://apex.sjtu.edu.cn/members/arthur_fyc) (arthur_fyc@apex.sjtu.edu.cn).
 
 ### Data Preparation
 We have upload a tiny data sample for training and evaluation.
-The full dataset for this project can be download from this [link](http://apex.sjtu.edu.cn/datasets/13).
-After download please replace the sample data in `data/` folder with the full data files.
+The full dataset for this project will be published soon.
 
 ### Installation and Running
 [TensorFlow](https://www.tensorflow.org/)(>=1.2) and dependant packages (e.g., `numpy` and `sklearn`) should be pre-installed before running the code.
