@@ -1,13 +1,14 @@
 # Deep Conversion Attribution for Online Advertising
 A `tensorflow` implementation of all the compared models for the CIKM 2018 paper: Learning Multi-touch Conversion Attribution with Dual-attention Mechanisms for Online Advertising.
 
+Paper Link: [https://arxiv.org/abs/1808.03737](https://arxiv.org/abs/1808.03737).
+
 ### Data Preparation
-We have uploaded a tiny data sample for training and evaluation.
-The full dataset for this project will be published soon.
+We have uploaded a tiny data sample for training and evaluation in this repository.
 
-You can download the full dataset from ...
+The full dataset for this project has been published [here](http://apex.sjtu.edu.cn/datasets/13).
 
-After download please replace the sample data in data/ folder with the full data files.
+After downloading please replace the sample data in data/ folder with the full data files.
 
 ### Data description
 Our raw data is Criteo Attribution Modeling for Bidding Dataset . You can download it and read its description on [this page](http://ailab.criteo.com/criteo-attribution-modeling-bidding-dataset/).
