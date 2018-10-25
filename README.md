@@ -2,6 +2,7 @@
 A `tensorflow` implementation of all the compared models for the CIKM 2018 paper: Learning Multi-touch Conversion Attribution with Dual-attention Mechanisms for Online Advertising.
 
 Paper Link: [https://arxiv.org/abs/1808.03737](https://arxiv.org/abs/1808.03737).
+
 Slides: [http://www.saying.ren/slides/deep-conv-attr.pdf](http://www.saying.ren/slides/deep-conv-attr.pdf)
 
 ### Data Preparation
