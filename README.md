@@ -43,7 +43,8 @@ We have set default hyperparameters in the model implementation. So the paramete
 @inproceedings{ren2018learning,
   title={Learning Multi-touch Conversion Attribution with Dual-attention Mechanisms for Online Advertising},
   author={Ren, Kan and Fang, Yuchen and Zhang, Weinan and Liu, Shuhao and Li, Jiajun and Zhang, Ya and Yu, Yong and Wang, Jun},
-  booktitle={Proceedings of the 27th ACM International on Conference on Information and Knowledge Management},
+  booktitle={Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
+  pages={1433--1442},
   year={2018},
   organization={ACM}
 }
